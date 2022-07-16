@@ -74,3 +74,45 @@ p{
     cursor: pointer;
     
 }
+
+@media screen and (max-width: 900px){
+    header{
+        display: none;
+    }
+   
+    img{
+        position: static center;
+        max-width: 80%;
+        display: block;
+    }
+    
+    h1{
+        font-size: 36px;
+        line-height: 52px;
+        width: auto; 
+        display: block;       
+    
+    }
+    p{
+        display: block;       
+        text-align: center;
+        font-size: 14px;
+        line-height:24px;
+    }
+    br{
+        display: none;
+    }
+
+    .link-main{
+        margin: 0 auto;
+        display: block;
+    }
+    @media screen and (max-width: 330px){
+        .container-left{
+            height: 70%;
+        }
+        br{
+            display: none;
+        }
+    }
+}
